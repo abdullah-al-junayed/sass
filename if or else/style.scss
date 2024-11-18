@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+$parentdiv:high;
+
+.div1 {
+    @if $parentdiv == high {background-color:red;}
+    @else if $parentdiv == low {background-color:black;}
+    @else {background-color:orange;}
+    width:200px;
+    height:200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+@mixin parentdiv($value){
+    @if $value > 100 {background-color: red;}
+    @else if $value <50 {background-color: rgb(204, 136, 150);}
+    @else {background-color: rgb(138, 39, 59);}
+
+}
+.div2 {
+    @include parentdiv(51);
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+}

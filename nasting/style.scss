@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    background-color: #f4f4;
+    h1{
+        font-size: 26px;
+        font-weight: bold;
+    }
+    ul{
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        gap: 20px;
+        font-size: 20px;
+    }
+  
+    input{
+        width: 200px;
+        height: 30px;
+        border-radius: 15px;
+    }
+}

@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.div1 {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.div2 {
+  background-color: rgb(138, 39, 59);
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-top: 50px;
+}/*# sourceMappingURL=style.css.map */

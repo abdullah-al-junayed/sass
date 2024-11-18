@@ -1,0 +1,14 @@
+h1, h2 {
+  color: green;
+  background-color: gray;
+  border: 2px solid red;
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  background-color: black;
+  border: 3px solid green;
+}/*# sourceMappingURL=style.css.map */

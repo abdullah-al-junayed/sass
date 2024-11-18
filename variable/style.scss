@@ -1,0 +1,13 @@
+$fontfamily:Arial;
+$fontsize:50px;
+$bg-rgb:#f4f4;
+$center:center;
+$p:20px;
+
+h1{
+ font-family: Arial;
+ font-size: $fontsize;
+ background-color: $bg-rgb;
+ text-align: $center;
+ padding: $p;
+}

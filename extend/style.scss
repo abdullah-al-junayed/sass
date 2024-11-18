@@ -1,0 +1,21 @@
+@mixin design{
+    color: green;
+    background-color: gray;
+    border: 2px solid red;
+    width:200px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    @include design
+}
+h2{
+    @extend h1;
+
+    background-color: black;
+    border:3px solid green;
+    
+    
+}

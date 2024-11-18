@@ -1,0 +1,12 @@
+$z: 1;
+
+@while $z < 10 {
+    .para#{$z} {
+        font-size: $z * 20px;
+        background-color: darken(crimson, $z * 10%);
+        color: white;
+        padding: $z * 2px;
+        text-align: center;
+    }
+    $z: $z + 1
+}

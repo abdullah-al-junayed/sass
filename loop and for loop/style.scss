@@ -1,0 +1,8 @@
+@for $i from 1 through 10 {
+    .Div#{$i} {
+        width: #{$i * 100}px;
+        height: #{$i * 100}px;
+        background-color: darken(rgb(255, 0, 51), $i * 10% );
+    }
+}
+

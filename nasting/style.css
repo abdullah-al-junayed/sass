@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+  background-color: rgba(255, 68, 255, 0.2666666667);
+}
+nav h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+nav ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  gap: 20px;
+  font-size: 20px;
+}
+nav input {
+  width: 200px;
+  height: 30px;
+  border-radius: 15px;
+}/*# sourceMappingURL=style.css.map */
